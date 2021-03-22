@@ -1,1 +1,1 @@
-# Web stranica osijek koteksa
+# Web stranica Osijek Koteksa
