@@ -58,7 +58,7 @@ const tempLinks = data.map(link => {
             <Link to="/kontakt/prijevoz">Prijevoz</Link>
           </li>
           <li>
-            <Link to="/kontakt/operativa">Građevinske Operacije</Link>
+            <Link to="/kontakt/operativa">Građevinske Operacije </Link>
           </li>
         </ul>
       </li>
