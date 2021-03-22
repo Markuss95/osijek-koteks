@@ -15,7 +15,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
       <div>
         <ul
           className={`${isOpen ? "sidebar-links" : ""} ${
-            isVisible ? "" : "sidebar-invisible"
+            isVisible ? "" : "sidebar-invisible "
           }`}
         >
           <li>
