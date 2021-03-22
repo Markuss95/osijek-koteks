@@ -359,6 +359,13 @@ Sidebar
   opacity: 1;
   transform: translateX(0);
 }
+<<<<<<< HEAD
+=======
+.sidebar-invisible{
+ display: none;
+}
+
+>>>>>>> 09b060ce33f550594b4fb25a3590f09b5b3d1869
 
 .sidebar-links li a {
   display: block;
@@ -414,6 +421,21 @@ Sidebar Animation
 .sidebar-links li:nth-of-type(5) {
   animation-delay: 1.25s;
 }
+<<<<<<< HEAD
+=======
+.sidebar-links li:nth-of-type(6) {
+  animation-delay: 1.5s;
+}
+.sidebar-links li:nth-of-type(7) {
+  animation-delay: 1.75s;
+}
+.sidebar-links li:nth-of-type(8) {
+  animation-delay: 2s;
+}
+.sidebar-links li:nth-of-type(9) {
+  animation-delay: 2.25s;
+}
+>>>>>>> 09b060ce33f550594b4fb25a3590f09b5b3d1869
 @keyframes slideRight {
   0% {
     transform: translateX(-200px);
