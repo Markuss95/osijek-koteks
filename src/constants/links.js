@@ -23,6 +23,11 @@ const data = [
   },
   {
     id: 6,
+    text: "Reference",
+    url: "/reference/",
+  },
+  {
+    id: 7,
     text: "Kontakt",
     url: "/kontakt/",
   },
@@ -53,6 +58,9 @@ const tempLinks = data.map(link => {
           </li>
           <li>
             <Link to="/kontakt/nabava">Nabava</Link>
+          </li>
+          <li>
+            <Link to="/kontakt/ljudskiresursi">Ljudski resursi</Link>
           </li>
           <li>
             <Link to="/kontakt/prijevoz">Prijevoz</Link>
