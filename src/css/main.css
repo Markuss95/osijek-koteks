@@ -56,7 +56,7 @@ Global Styles
   box-sizing: border-box;
 }
 body {
-  font-family:"Open Sans";
+  font-family: "Open Sans";
   background: var(--clr-white);
   color: var(--clr-grey-1);
   line-height: 1.5;
@@ -129,10 +129,9 @@ p {
   }
 }
 @media screen and (min-width: 1010px) {
-  .support-mobile-visible{
-    display:none;
+  .support-mobile-visible {
+    display: none;
   }
- 
 }
 
 .btn {
@@ -288,7 +287,6 @@ Navbar
   }
 
   .nav-links a {
-   
     font-family: "Open Sans";
     font-size: 1.2rem;
     text-transform: capitalize;
@@ -359,10 +357,9 @@ Sidebar
   opacity: 1;
   transform: translateX(0);
 }
-.sidebar-invisible{
- display: none;
+.sidebar-invisible {
+  display: none;
 }
-
 
 .sidebar-links li a {
   display: block;
@@ -1091,7 +1088,7 @@ About Page
 
 @media screen and (min-width: 850px) {
   .about-paragraph {
-      margin-top:0;
+    margin-top: 0;
     text-align: justify;
     letter-spacing: 0.04em;
     padding: 4rem 8rem 5rem 8rem;
@@ -1099,7 +1096,7 @@ About Page
     line-height: 2;
     font-size: 1.1rem;
   }
-    .support-paragraph{
+  .support-paragraph {
     padding-top: 3.5rem;
   }
   .construction-services-paragraph {
@@ -1136,10 +1133,10 @@ About Page
   }
 }
 @media screen and (max-width: 700px) {
-  .certificates-img{
+  .certificates-img {
     opacity: 0;
   }
-  .iso-img{
+  .iso-img {
     opacity: 0;
   }
 }
@@ -1234,7 +1231,7 @@ Contact Page
   }
   .contact-us-list {
     margin-top: 5%;
-  
+
     white-space: normal;
   }
 }
@@ -1310,8 +1307,7 @@ Background
   display: block;
   overflow: hidden;
 }
-.bcg::before{
-  
+.bcg::before {
 }
 .bcg {
   position: relative !important;
@@ -1346,7 +1342,7 @@ Background
   .teamviewer-img {
     display: none;
   }
-  .support-paragraph{
+  .support-paragraph {
     display: none;
   }
 }
