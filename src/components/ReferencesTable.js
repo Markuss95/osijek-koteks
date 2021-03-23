@@ -99,9 +99,9 @@ export const ReferencesTable = () => {
           ),
         }}
         options={{
-          search: false,
-
-          paging: false,
+          pageSize:6,
+          pageSizeOptions:[12,24,50,100],
+          emptyRowsWhenPaging: false,
         }}
         data={data}
         columns={columns}
