@@ -32,7 +32,7 @@ const Concrete = ({
 
 export const query = graphql`
   {
-    file(relativePath: { eq: "pexels-scott-webb-2117937.jpg" }) {
+    file(relativePath: { eq: "pexels-tima-miroshnichenko-6474345-min.jpg" }) {
       childImageSharp {
         fluid(
           sizes: "(max-width: 300px) calc(100vw - 25px), (max-width: 600px) calc(100vw - 15px), 1300px"
