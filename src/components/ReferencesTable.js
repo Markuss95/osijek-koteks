@@ -184,12 +184,34 @@ export const ReferencesTable = () => {
           ),
         }}
         options={{
-          pageSize:12,
-          pageSizeOptions:[12,24,50,100],
+          pageSize:10,
+          pageSizeOptions:[10,25,50,100],
           emptyRowsWhenPaging: false,
         }}
         data={data}
         columns={columns}
+        localization={{
+          pagination: {
+              labelDisplayedRows: '{from}-{to} od {count}',
+              firstTooltip: 'Prva Stranica',
+              previousTooltip: 'Prijašnja Stranica',
+              nextTooltip: 'Sljedeća Stranica',
+              lastTooltip:'Posljednja Stranica',
+              labelRowsSelect:'Redova'
+          },
+          toolbar: {
+              nRowsSelected: '{0} redova izabrano'
+          },
+          header: {
+              actions: 'Akcije'
+          },
+          body: {
+              emptyDataSourceMessage: 'Nema podataka za prikaz',
+              filterRow: {
+                  filterTooltip: 'Filter'
+              }
+          }
+      }}
       />
     </div>
   )
