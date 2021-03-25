@@ -28,7 +28,10 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
             <Link to="/certifikati">Certifikati</Link>
           </li>
           <li>
-            <Link to="/podrška">Podrška</Link>
+            <Link to="/podrska">Podrška</Link>
+          </li>
+          <li>
+            <Link to="/reference">Reference</Link>
           </li>
           <li>
           <Link to="#" onClick={toggleVisibility}>Kontakt</Link>
