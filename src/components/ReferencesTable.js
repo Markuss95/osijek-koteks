@@ -184,6 +184,7 @@ export const ReferencesTable = () => {
           ),
         }}
         options={{
+          search: false,
           pageSize:10,
           pageSizeOptions:[10,25,50,100],
           emptyRowsWhenPaging: false,
