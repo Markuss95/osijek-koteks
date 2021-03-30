@@ -31,15 +31,21 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
             <Link to="/podrska">Podrška</Link>
           </li>
           <li>
-            <Link to="/reference">Reference</Link>
-          </li>
-          <li>
-          <Link to="#" onClick={toggleVisibility}>Kontakt</Link>
+            <Link to="#" onClick={toggleVisibility}>
+              Kontakt
+            </Link>
           </li>
         </ul>
-        <ul className={`${isOpen ? "sidebar-links" : ""} ${!isVisible ? "":"sidebar-invisible"}`}>
-        <li>
-          <Link to="#" onClick={toggleVisibility}> <FaArrowLeft/></Link>
+        <ul
+          className={`${isOpen ? "sidebar-links" : ""} ${
+            !isVisible ? "" : "sidebar-invisible"
+          }`}
+        >
+          <li>
+            <Link to="#" onClick={toggleVisibility}>
+              {" "}
+              <FaArrowLeft />
+            </Link>
           </li>
           <li>
             <Link to="/kontakt/uprava">Uprava</Link>
@@ -60,10 +66,10 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
             <Link to="/kontakt/nabava">Nabava</Link>
           </li>
           <li>
-          <Link to="/kontakt/ljudskiresursi">Ljudski Resursi</Link>
+            <Link to="/kontakt/ljudskiresursi">Ljudski Resursi</Link>
           </li>
           <li>
-          <Link to="/kontakt/prijevoz">Prijevoz</Link>
+            <Link to="/kontakt/prijevoz">Prijevoz</Link>
           </li>
           <li>
             <Link to="/kontakt/operativa">Građevinske Operacije</Link>
