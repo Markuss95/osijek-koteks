@@ -89,6 +89,17 @@ const tempLinks = data.map(link => {
         </ul>
       </li>
     )
+  } else if (link.text === "O nama") {
+    return (
+      <li key={link.id} className="dropdown-list">
+        <Link to={link.url}>{link.text}</Link>
+        <ul className="dropdown">
+          <li>
+            <Link to="/o-nama/poslovi">Poslovi</Link>
+          </li>
+        </ul>
+      </li>
+    )
   } else {
     return (
       <li key={link.id}>

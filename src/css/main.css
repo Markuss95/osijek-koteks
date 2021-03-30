@@ -638,11 +638,11 @@ Services
 
 /*
 =============== 
-Jobs
+Blogs
 ===============
 */
 
-.jobs-center {
+.blogs-center {
   width: 80vw;
   margin: 0 auto;
   max-width: var(--max-width);
@@ -653,7 +653,7 @@ Jobs
   justify-content: center;
   margin-bottom: 4rem;
 }
-.job-btn {
+.blog-btn {
   background: transparent;
   border-color: transparent;
   text-transform: capitalize;
@@ -665,7 +665,7 @@ Jobs
   padding: 0.25rem 0;
   line-height: 1;
 }
-.job-btn:hover {
+.blog-btn:hover {
   color: var(--clr-primary-5);
   box-shadow: 0 2px var(--clr-primary-5);
 }
@@ -674,10 +674,10 @@ Jobs
   box-shadow: 0 2px var(--clr-primary-5);
 }
 
-.job-info h3 {
+.blog-info h3 {
   font-weight: 400;
 }
-.job-info h4 {
+.blog-info h4 {
   text-transform: uppercase;
   color: var(--clr-grey-5);
   background: var(--clr-grey-9);
@@ -685,25 +685,25 @@ Jobs
   padding: 0.375rem 0.75rem;
   border-radius: var(--radius);
 }
-.job-date {
+.blog-date {
   letter-spacing: var(--spacing);
 }
-.job-desc {
+.blog-desc {
   display: grid;
   grid-template-columns: auto 1fr;
   column-gap: 2rem;
   align-items: center;
   margin-bottom: 1.25rem;
 }
-.job-desc p {
+.blog-desc p {
   margin-bottom: 0;
   color: var(--clr-grey-3);
 }
-.job-icon {
+.blog-icon {
   color: var(--clr-primary-5);
 }
 @media screen and (min-width: 992px) {
-  .jobs-center {
+  .blogs-center {
     width: 90vw;
     display: grid;
     grid-template-columns: 200px 1fr;
@@ -713,13 +713,13 @@ Jobs
     flex-direction: column;
     justify-content: flex-start;
   }
-  .job-btn {
+  .blog-btn {
     margin-bottom: 1rem;
   }
   .active-btn {
     box-shadow: -2px 0 var(--clr-primary-5);
   }
-  .job-btn:hover {
+  .blog-btn:hover {
     box-shadow: -2px 0 var(--clr-primary-5);
   }
 }
