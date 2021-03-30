@@ -40,14 +40,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-strapi`,
-      options: {
-        apiURL: `http://localhost:1337`,
-        queryLimit: 1000,
-        contentTypes: [`jobs`],
-      },
-    },
-    {
       resolve: `gatsby-plugin-webfonts`,
       options: {
         fonts: {
