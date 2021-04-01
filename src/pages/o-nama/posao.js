@@ -15,7 +15,10 @@ const Jobs = ({
     <Layout>
       <div className="img-wrapper img-wrapper-about">
         <Image Tag="div" fluid={fluid} className=" bcg bcg-about  " />
-        <h2 className="about-header">Posao</h2>
+        <h2 className="about-header visibility-filter ">
+          Posao u Osijek Koteksu
+        </h2>
+        <h2 className="about-header mobile-visible">Posao</h2>
       </div>
       <AllJobs />
     </Layout>
