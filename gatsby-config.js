@@ -25,6 +25,14 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `v9itek14pl5h`,
+        // Learn about environment variables: https://gatsby.dev/env-vars
+        accessToken: `6-c6C3mFhn12-2h6dzR2xxLPhwK42SvL9QWN9iv9BxI`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-sharp`,
       options: {
         // Defaults used for gatsbyImageData and StaticImage
