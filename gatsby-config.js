@@ -3,7 +3,9 @@
  *
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
-
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
 module.exports = {
   siteMetadata: {
     title: "Osijek-Koteks portfolio",
@@ -29,7 +31,7 @@ module.exports = {
       options: {
         spaceId: `v9itek14pl5h`,
         // Learn about environment variables: https://gatsby.dev/env-vars
-        accessToken: `6-c6C3mFhn12-2h6dzR2xxLPhwK42SvL9QWN9iv9BxI`,
+        accessToken: process.env.ACCESS_TOKEN,
       },
     },
     {
