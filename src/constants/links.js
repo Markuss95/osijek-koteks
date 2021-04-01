@@ -4,7 +4,7 @@ const data = [
   {
     id: 1,
     text: "Posao",
-    url: "/o-nama/poslovi",
+    url: "/o-nama/posao",
   },
   {
     id: 2,

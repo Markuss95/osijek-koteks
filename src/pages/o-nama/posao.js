@@ -4,7 +4,7 @@ import { graphql } from "gatsby"
 import Image from "gatsby-image"
 import AllJobs from "../../components/AllJobs"
 
-const About = ({
+const Jobs = ({
   data: {
     file: {
       childImageSharp: { fluid },
@@ -15,7 +15,7 @@ const About = ({
     <Layout>
       <div className="img-wrapper img-wrapper-about">
         <Image Tag="div" fluid={fluid} className=" bcg bcg-about  " />
-        <h2 className="about-header">Poslovi</h2>
+        <h2 className="about-header">Posao</h2>
       </div>
       <AllJobs />
     </Layout>
@@ -35,4 +35,4 @@ export const query = graphql`
     }
   }
 `
-export default About
+export default Jobs
