@@ -6,7 +6,7 @@ const query = graphql`
     allContentfulPoslovi(sort: { fields: createdAt, order: DESC }) {
       nodes {
         id
-        datumPrijaveDo(formatString: "DD.MM.YYYY")
+        PrijaveDo(formatString: "DD.MM.YYYY")
         naslov
         slika {
           gatsbyImageData(layout: CONSTRAINED, placeholder: TRACED_SVG)

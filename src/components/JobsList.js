@@ -5,7 +5,7 @@ const JobsList = ({ jobs = [] }) => {
   return (
     <div className="jobs-list">
       {jobs.map(job => {
-        const { id, naslov, slika, datumPrijaveDo } = job
+        const { id, naslov, slika, PrijaveDo } = job
         return (
           <div className="job-little-wrapper">
             <Link key={id} to={`/${naslov}`} className="job">
@@ -15,7 +15,7 @@ const JobsList = ({ jobs = [] }) => {
                 className=""
               />
               <h5>{naslov}</h5>
-              <p>Oglas je otvoren do {datumPrijaveDo}.</p>
+              <p>Oglas je otvoren do {PrijaveDo}.</p>
             </Link>
           </div>
         )
