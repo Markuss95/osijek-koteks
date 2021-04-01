@@ -9,7 +9,7 @@ const query = graphql`
         PrijaveDo(formatString: "DD.MM.YYYY")
         naslov
         slika {
-          gatsbyImageData(layout: CONSTRAINED)
+          gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
         }
       }
     }
