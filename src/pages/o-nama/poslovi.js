@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../../components/Layout"
 import { graphql } from "gatsby"
 import Image from "gatsby-image"
+import AllJobs from "../../components/AllJobs"
 
 const About = ({
   data: {
@@ -16,7 +17,7 @@ const About = ({
         <Image Tag="div" fluid={fluid} className=" bcg bcg-about  " />
         <h2 className="about-header">Poslovi</h2>
       </div>
-      <div className="about-content mobile-visible"></div>
+      <AllJobs />
     </Layout>
   )
 }
