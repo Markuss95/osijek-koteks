@@ -15,7 +15,7 @@ const Certificates = ({
       <div className="img-wrapper img-wrapper-about">
         <Image Tag="div" fluid={fluid} className=" bcg bcg-about  " />
         <h2 className="about-header visibility-filter ">
-          Integrirani sustav upravljanja
+          Integrirani Sustav Upravljanja
         </h2>
         <h2 className="about-header mobile-visible">Certifikati</h2>
       </div>

@@ -14,7 +14,7 @@ const Assets = ({
     <Layout>
       <div className="img-wrapper img-wrapper-about">
         <Image Tag="div" fluid={fluid} className=" bcg bcg-about  " />
-        <h2 className="about-header visibility-filter ">Imovina na prodaju</h2>
+        <h2 className="about-header visibility-filter ">Imovina Na Prodaju</h2>
         <h2 className="about-header mobile-visible">Imovina</h2>
       </div>
       <div className="about-content">

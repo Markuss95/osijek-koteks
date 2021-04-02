@@ -14,7 +14,7 @@ const ConstructionServices = ({
     <Layout>
       <div className="img-wrapper img-wrapper-about">
         <Image Tag="div" fluid={fluid} className=" bcg bcg-about  " />
-        <h2 className="about-header visibility-filter ">Građevinske usluge</h2>
+        <h2 className="about-header visibility-filter ">Građevinske Usluge</h2>
         <h2 className="about-header mobile-visible">Usluge</h2>
       </div>
       <section className="section bg-grey">

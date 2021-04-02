@@ -15,7 +15,7 @@ const About = ({
       <div className="img-wrapper img-wrapper-about">
         <Image Tag="div" fluid={fluid} className=" bcg bcg-about  " />
         <h2 className="about-header visibility-filter ">
-          Povijest, sadašnjost, budućnost…
+          Povijest, Sadašnjost, Budućnost…
         </h2>
         <h2 className="about-header mobile-visible">O nama</h2>
       </div>
