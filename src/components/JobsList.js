@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
+
 const JobsList = ({ jobs = [] }) => {
   return (
     <div className="jobs-list">
@@ -8,7 +9,7 @@ const JobsList = ({ jobs = [] }) => {
         const { id, naslov, slika, PrijaveDo } = job
         return (
           <div className="job-little-wrapper">
-            <Link key={id} to={`/${naslov}`} className="job">
+            <Link key={id} to={`/${id}`} className="job">
               <GatsbyImage
                 image={slika.gatsbyImageData}
                 alt={naslov}
