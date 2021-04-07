@@ -6,8 +6,12 @@ import Image from "gatsby-image"
 const PosaoTemplate = ({ data }) => {
   const {
     naslov,
+    naslovTeksta,
     PrijaveDo,
     tekst: { tekst },
+    stoNudimo: { stoNudimo },
+    uvjeti: { uvjeti },
+    mjestoRada,
     slika,
   } = data.contentfulPoslovi
   const fluid = data.file.childImageSharp.fluid
@@ -15,9 +19,15 @@ const PosaoTemplate = ({ data }) => {
     <Layout>
       <div className="img-wrapper img-wrapper-about">
         <Image Tag="div" fluid={fluid} className=" bcg bcg-about  " />
-
-        <h2 className="about-header visibility-filter ">{naslov}</h2>
-        <h2 className="about-header mobile-visible">Posao</h2>
+        <h2 className="about-header">{naslov}</h2>
+      </div>
+      <div className="about-content job-content">
+        <h4 className="job-paragraph">{naslovTeksta}</h4>
+        <h4 className="job-paragraph">Mjesto rada: {mjestoRada}</h4>
+        <h4 className="job-paragraph">Opis poslova: {tekst}</h4>
+        <h4 className="job-paragraph">Uvjeti: {uvjeti}</h4>
+        <h4 className="job-paragraph">Što nudimo: {stoNudimo}</h4>
+        <h4 className="job-paragraph">Prijave do: {PrijaveDo}</h4>
       </div>
     </Layout>
   )
@@ -28,6 +38,7 @@ export const query = graphql`
     contentfulPoslovi(id: { eq: $id }) {
       id
       naslov
+      naslovTeksta
       PrijaveDo(formatString: "DD.MM.YYYY")
       slika {
         gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
@@ -35,6 +46,13 @@ export const query = graphql`
       tekst {
         tekst
       }
+      stoNudimo {
+        stoNudimo
+      }
+      uvjeti {
+        uvjeti
+      }
+      mjestoRada
     }
     file(relativePath: { eq: "DJI_0670 (1) (1)-min (1).jpg" }) {
       childImageSharp {
