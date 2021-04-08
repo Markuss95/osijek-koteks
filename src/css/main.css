@@ -1397,12 +1397,39 @@ Job Template
   color: var(--clr-grey-4);
   margin-top: 0.5rem;
 }
+.job-paragraph {
+  margin-top: 1rem;
+  text-transform: none;
+  font-family: "Open Sans";
+  padding: 2vh;
+  font-weight: 300;
+  position: relative;
+  z-index: 999;
+  letter-spacing: 0.03em;
+  line-height: 2.7;
+  text-align: left;
+}
+.job-content {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
 @media screen and (min-width: 576px) {
   .jobs-list {
     grid-template-columns: 1fr 1fr;
   }
   .job-img {
     height: 10rem;
+  }
+}
+@media screen and (min-width: 850px) {
+  .job-paragraph {
+    margin-top: 0;
+    text-align: justify;
+    letter-spacing: 0.04em;
+    padding: 1rem 8rem 1rem 8rem;
+    letter-spacing: 0.04em;
+    line-height: 2;
+    font-size: 1.1rem;
   }
 }
 @media screen and (min-width: 992px) {
