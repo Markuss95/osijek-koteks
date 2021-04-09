@@ -19,7 +19,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
           }`}
         >
           <li>
-            <Link to="/o-nama/poslovi">Posao</Link>
+            <Link to="/o-nama/posao">Posao</Link>
           </li>
           <li>
             <Link to="/usluge">Usluge</Link>
