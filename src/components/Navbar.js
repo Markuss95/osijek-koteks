@@ -12,9 +12,10 @@ const Navbar = ({ toggleSidebar }) => {
             <img src={logo} alt="logo" className="logo-img" />
           </Link>
           <button type="button" className="toggle-btn" onClick={toggleSidebar}>
-            <FaAlignRight></FaAlignRight>
+           <span className="menu-text">  Meni</span> <span className="menu-icon"><FaAlignRight /></span>
           </button>
         </div>
+        
         <div>
           <PageLinks styleClass="nav-links"></PageLinks>
         </div>

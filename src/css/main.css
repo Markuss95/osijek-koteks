@@ -226,6 +226,10 @@ Navbar
   z-index: 200;
   background: transparent;
 }
+.menu-text{
+  position: relative;
+  bottom: 0.5rem;
+}
 
 .dropdown {
   position: absolute;
@@ -271,7 +275,11 @@ Navbar
 .dropdown-list ul li a {
   display: none;
 }
-
+@media screen and (max-width: 530px) {
+.menu-icon{
+  display: none;
+}
+}
 @media screen and (min-width: 1300px) and (min-height: 845px) {
   .toggle-btn {
     display: none;
