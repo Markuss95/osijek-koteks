@@ -228,7 +228,7 @@ Navbar
 }
 .menu-text{
   position: relative;
-  bottom: 0.5rem;
+  bottom: 0.3rem;
 }
 
 .dropdown {
@@ -262,12 +262,12 @@ Navbar
   font-size: 2rem;
   background: transparent;
   border-color: transparent;
-  color: var(--clr-primary-5);
+  color: #0080ff	;
   cursor: pointer;
   transition: var(--transition);
 }
 .toggle-btn:hover {
-  color: var(--clr-primary-2);
+  color: #00bfff;
 }
 .nav-links {
   display: none;
@@ -276,7 +276,8 @@ Navbar
   display: none;
 }
 @media screen and (max-width: 530px) {
-.menu-icon{
+
+.logo-img{
   display: none;
 }
 }
