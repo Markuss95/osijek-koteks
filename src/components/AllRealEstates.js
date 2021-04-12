@@ -1,9 +1,9 @@
 import React from "react"
-import AssetsList from "./AssetsList"
+import RealEstatesList from "./RealEstatesList"
 import { graphql, useStaticQuery } from "gatsby"
 const query = graphql`
-  {
-    allContentfulImovina(limit: 10, sort: { fields: createdAt, order: DESC }) {
+{
+    allContentfulNekretnine(limit: 10, sort: { fields: createdAt, order: DESC }) {
       nodes {
         id
         vrijediDo(formatString: "DD.MM.YYYY")
@@ -13,22 +13,23 @@ const query = graphql`
         naslov
       }
     }
-  }
+}
 `
-const AllAssets = () => {
+const AllRealstates = () => {
   const data = useStaticQuery(query)
-  const assets = data.allContentfulImovina.nodes
+  const realEstates = data.allContentfulNekretnine.nodes
+  console.log(realEstates)
   return (
     <div className="section section-center">
-      {assets.length > 0 ? (
-        <AssetsList assets={assets} />
+      {realEstates.length > 0 ? (
+        <RealEstatesList realEstates={realEstates} />
       ) : (
         <h4 className="about-paragraph assets">
-          *Trenutno nema imovine na prodaju*
+          *Trenutno nema nekretnina koje su na prodaju*
         </h4>
       )}
     </div>
   )
 }
 
-export default AllAssets
+export default AllRealstates

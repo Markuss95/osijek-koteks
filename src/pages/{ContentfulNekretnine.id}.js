@@ -2,12 +2,12 @@ import React from "react"
 import Layout from "../components/Layout"
 import { graphql } from "gatsby"
 import Image from "gatsby-image"
-const ImovinaTemplate = ({ data }) => {
+const NekretnineTemplate = ({ data }) => {
   const {
     naslov,
     vrijediDo,
     opis: { opis },
-  } = data.contentfulImovina
+  } = data.contentfulNekretnine
   const fluid = data.file.childImageSharp.fluid
   return (
     <Layout>
@@ -24,8 +24,8 @@ const ImovinaTemplate = ({ data }) => {
 }
 
 export const query = graphql`
-  query getSingleAsset($id: String) {
-    contentfulImovina(id: { eq: $id }) {
+query getSingleRealEstate($id: String) {
+    contentfulNekretnine(id: { eq: $id }) {
       id
       naslov
       vrijediDo(formatString: "DD.MM.YYYY")
@@ -47,4 +47,4 @@ export const query = graphql`
     }
   }
 `
-export default ImovinaTemplate
+export default NekretnineTemplate
