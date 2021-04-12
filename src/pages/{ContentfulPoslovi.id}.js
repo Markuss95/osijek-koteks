@@ -7,7 +7,7 @@ const PosaoTemplate = ({ data }) => {
   const {
     naslov,
     naslovTeksta,
-    PrijaveDo,
+    prijaveDo,
     tekst: { tekst },
     stoNudimo: { stoNudimo },
     uvjeti: { uvjeti },
@@ -26,7 +26,7 @@ const PosaoTemplate = ({ data }) => {
         <h4 className="job-paragraph">Opis poslova: {tekst}</h4>
         <h4 className="job-paragraph">Uvjeti: {uvjeti}</h4>
         <h4 className="job-paragraph">Što nudimo: {stoNudimo}</h4>
-        <h4 className="job-paragraph">Prijave do: {PrijaveDo}</h4>
+        <h4 className="job-paragraph">Prijave do: {prijaveDo}</h4>
       </div>
     </Layout>
   )
@@ -38,7 +38,7 @@ export const query = graphql`
       id
       naslov
       naslovTeksta
-      PrijaveDo(formatString: "DD.MM.YYYY")
+      prijaveDo(formatString: "DD.MM.YYYY")
       slika {
         gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
       }

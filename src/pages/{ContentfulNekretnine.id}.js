@@ -24,7 +24,7 @@ const NekretnineTemplate = ({ data }) => {
 }
 
 export const query = graphql`
-query getSingleRealEstate($id: String) {
+  query getSingleRealEstate($id: String) {
     contentfulNekretnine(id: { eq: $id }) {
       id
       naslov
