@@ -16,7 +16,7 @@ const AssetsList = ({ assets = [] }) => {
                 className=""
               />
               <h5>{naslov}</h5>
-              <p>Oglas je otvoren do {vrijediDo}.</p>
+              {vrijediDo ? <p>Oglas je otvoren do {vrijediDo}.</p> : ""}
             </Link>
           </div>
         )

@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { GatsbyImage} from "gatsby-plugin-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 
 const JobsList = ({ jobs = [] }) => {
   return (
@@ -16,7 +16,7 @@ const JobsList = ({ jobs = [] }) => {
                 className=""
               />
               <h5>{naslov}</h5>
-              <p>Oglas je otvoren do {PrijaveDo}.</p>
+              {PrijaveDo ? <p>Oglas je otvoren do {PrijaveDo}.</p> : ""}
             </Link>
           </div>
         )
