@@ -281,7 +281,7 @@ Navbar
   display: none;
 }
 }
-@media screen and (min-width: 1300px) and (min-height: 845px) {
+@media screen and (min-width: 1300px) and (min-height: 720px) {
   .toggle-btn {
     display: none;
   }
@@ -394,7 +394,7 @@ Sidebar
   color: var(--clr-red-dark);
   cursor: pointer;
 }
-@media screen and (min-width: 1300px) and (min-height: 845px) {
+@media screen and (min-width: 1300px) and (min-height: 720px) {
   .sidebar {
     transform: translateX(-100%);
   }
@@ -854,80 +854,6 @@ Projects
   }
 }
 
-/*
-=============== 
-Blog
-===============
-*/
-.blog {
-  display: block;
-  margin-bottom: 2rem;
-  background: var(--clr-grey-10);
-  border-radius: var(--radius);
-  box-shadow: var(--light-shadow);
-  transition: var(--transition);
-}
-.blog:hover {
-  box-shadow: var(--dark-shadow);
-  transform: scale(1.02);
-}
-.blog article {
-  height: 100%;
-  display: grid;
-  grid-template-rows: auto 1fr;
-}
-.blog-card {
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-}
-.blog-img {
-  border-top-left-radius: var(--radius);
-  border-top-right-radius: var(--radius);
-  height: 15rem;
-}
-.blog-card {
-  padding: 1.5rem 1rem;
-}
-.blog-card h4 {
-  color: var(--clr-grey-1);
-}
-
-.blog-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.blog-footer p {
-  margin-bottom: 0;
-  font-weight: bold;
-  color: var(--clr-grey-5);
-}
-.blog-footer p:first-of-type {
-  display: inline-block;
-  background: var(--clr-grey-9);
-  color: var(--clr-grey-5);
-  margin-right: 0.5rem;
-  padding: 0.25rem 0.5rem;
-  border-radius: var(--radius);
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 0.85rem;
-}
-@media screen and (min-width: 576px) {
-  .blogs-center {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(368px, 1fr));
-    column-gap: 2rem;
-  }
-  .blog-img {
-    height: 17.5rem;
-  }
-}
-@media screen and (min-width: 850px) {
-  .blog-img {
-    height: 13.75rem;
-  }
-}
 
 /*
 ===============
@@ -1172,25 +1098,26 @@ Contact Page
   text-align: center;
 }
 .contact-us-header-operativa {
-  right: 26%;
+  right: 2.3rem;
 }
 .contact-us-header-nabava {
-  right: 80%;
+  right: 15rem;
 }
 .contact-us-header-prijevoz {
-  right: 56%;
+  right: 9.3rem;
 }
 .contact-us-header-podugovaranje {
-  right: 61%;
+  right: 10.4rem;
 }
 .contact-us-header-tehnicka {
-  right: 108%;
+  right:21.6rem;
 }
 .contact-us-header-pravniposlovi {
-  right: 20%;
+  right: 1rem;
 }
 .contact-us-header-financije {
-  right: 59%;
+  right: 10rem;
+  
 }
 .contact-us-header-uprava {
   margin-top: 4rem;
@@ -1207,18 +1134,18 @@ Contact Page
   position: relative;
   margin: auto 40%;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1600px) {
   .contact-content-wrapper {
     position: relative;
     margin: auto 10%;
   }
   .contact-us-header {
-    margin-top: 15%;
+    margin-top: 4rem;
     text-align: center;
     white-space: normal;
   }
   .contact-us-header-uprava {
-    margin: 10% 5% 5% 5%;
+    margin: 4rem 5% 2rem 5%;
     padding: 0;
     text-align: center;
   }
@@ -1238,27 +1165,25 @@ Contact Page
     left: 0%;
   }
   .contact-us-list {
-    margin-top: 5%;
-
+    /* margin-top: 5%; */
     white-space: normal;
   }
-}
-@media screen and (max-width: 1450px) {
   .contact-us-header-tehnicka {
-    margin-top: 15%;
+    margin-top: 5rem;
     padding: 0;
     text-align: center;
     white-space: normal;
     left: 0%;
   }
   .contact-us-header-nabava {
-    margin-top: 15%;
+    margin-top: 5rem;
     padding: 0;
     text-align: center;
     white-space: normal;
     left: 0%;
   }
 }
+
 
 /*
 ===============
@@ -1315,8 +1240,7 @@ Background
   display: block;
   overflow: hidden;
 }
-.bcg::before {
-}
+
 .bcg {
   position: relative !important;
   max-width: 100%;

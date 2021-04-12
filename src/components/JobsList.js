@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import { GatsbyImage} from "gatsby-plugin-image"
 
 const JobsList = ({ jobs = [] }) => {
   return (

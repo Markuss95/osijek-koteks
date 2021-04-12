@@ -1,6 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
-import { graphql, useStaticQuery } from "gatsby"
 import Background from "./Background"
 
 const Hero = () => {

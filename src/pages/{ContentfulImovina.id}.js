@@ -7,7 +7,6 @@ const ImovinaTemplate = ({ data }) => {
     naslov,
     vrijediDo,
     opis: { opis },
-    slika,
   } = data.contentfulImovina
   const fluid = data.file.childImageSharp.fluid
   console.log(data)

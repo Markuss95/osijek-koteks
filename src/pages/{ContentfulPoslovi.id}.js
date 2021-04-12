@@ -12,7 +12,6 @@ const PosaoTemplate = ({ data }) => {
     stoNudimo: { stoNudimo },
     uvjeti: { uvjeti },
     mjestoRada,
-    slika,
   } = data.contentfulPoslovi
   const fluid = data.file.childImageSharp.fluid
   return (

@@ -1,5 +1,4 @@
 import React from "react"
-import Links from "../constants/links"
 import { Link } from "gatsby"
 import { FaTimes, FaArrowLeft } from "react-icons/fa"
 const Sidebar = ({ isOpen, toggleSidebar }) => {
