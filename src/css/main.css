@@ -1309,7 +1309,7 @@ Job Template
 .jobs-list {
   display: grid;
   gap: 2rem 1rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 .job {
   display: block;

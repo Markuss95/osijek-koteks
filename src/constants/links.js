@@ -90,7 +90,7 @@ const tempLinks = data.map(link => {
             <Link to="/usluge/nekretnine">Nekretnine</Link>
           </li>
           <li>
-            <Link to="/usluge/imovina">Pokretnine</Link>
+            <Link to="/usluge/pokretnine">Pokretnine</Link>
           </li>
         </ul>
       </li>

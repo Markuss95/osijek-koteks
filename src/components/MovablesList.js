@@ -2,16 +2,16 @@ import React from "react"
 import { Link } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 
-const AssetsList = ({ assets = [] }) => {
+const MovablesList = ({ movables = [] }) => {
   return (
     <div className="jobs-list">
-      {assets.map(asset => {
-        const { id, naslov, slika, vrijediDo } = asset
+      {movables.map(movable => {
+        const { id, naslov, slika, vrijediDo } = movable
         return (
           <div className="job-little-wrapper">
             {naslov === "Prazna stranica" ? (
               <h3 className="about-paragraph estate">
-                *Trenutno nema imovine za prodaju*
+                *Trenutno nema pokretnina koje su na prodaju*
               </h3>
             ) : (
               <Link key={id} to={`/${id}`} className="job">
@@ -31,4 +31,4 @@ const AssetsList = ({ assets = [] }) => {
   )
 }
 
-export default AssetsList
+export default MovablesList
