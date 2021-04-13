@@ -18,7 +18,6 @@ const query = graphql`
 const AllRealstates = () => {
   const data = useStaticQuery(query)
   const realEstates = data.allContentfulNekretnine.nodes
-  console.log(realEstates)
   return (
     <div className="section section-center">
       {realEstates.length > 0 ? (

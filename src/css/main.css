@@ -126,6 +126,9 @@ p {
   .visibility-filter {
     display: none;
   }
+  .estate {
+    left: 0% !important;
+  }
 }
 @media screen and (min-width: 1010px) {
   .support-mobile-visible {
@@ -226,7 +229,7 @@ Navbar
   z-index: 200;
   background: transparent;
 }
-.menu-text{
+.menu-text {
   position: relative;
   bottom: 0.3rem;
 }
@@ -262,7 +265,7 @@ Navbar
   font-size: 2rem;
   background: transparent;
   border-color: transparent;
-  color: #0080ff	;
+  color: #0080ff;
   cursor: pointer;
   transition: var(--transition);
 }
@@ -276,10 +279,9 @@ Navbar
   display: none;
 }
 @media screen and (max-width: 530px) {
-
-.logo-img{
-  display: none;
-}
+  .logo-img {
+    display: none;
+  }
 }
 @media screen and (min-width: 1300px) and (min-height: 720px) {
   .toggle-btn {
@@ -854,7 +856,6 @@ Projects
   }
 }
 
-
 /*
 ===============
 Footer
@@ -1110,14 +1111,13 @@ Contact Page
   right: 10.4rem;
 }
 .contact-us-header-tehnicka {
-  right:21.6rem;
+  right: 21.6rem;
 }
 .contact-us-header-pravniposlovi {
   right: 1rem;
 }
 .contact-us-header-financije {
   right: 10rem;
-  
 }
 .contact-us-header-uprava {
   margin-top: 4rem;
@@ -1183,7 +1183,6 @@ Contact Page
     left: 0%;
   }
 }
-
 
 /*
 ===============
@@ -1289,8 +1288,11 @@ Background
 .concrete-span {
   font-style: italic;
 }
-.assets {
+.estate {
   text-align: center;
+  position: relative;
+  bottom: -2rem;
+  left: 18.5rem;
 }
 
 /*
@@ -1307,7 +1309,7 @@ Job Template
 .jobs-list {
   display: grid;
   gap: 2rem 1rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 }
 .job {
   display: block;
