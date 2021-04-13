@@ -22,7 +22,6 @@ const PokretnineTemplate = ({ data }) => {
     </Layout>
   )
 }
-
 export const query = graphql`
   query getSingleMovable($id: String) {
     contentfulPokretnine(id: { eq: $id }) {
