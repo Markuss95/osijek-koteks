@@ -6,9 +6,11 @@ const NekretnineTemplate = ({ data }) => {
   const {
     naslov,
     vrijediDo,
+    kontakt,
     opis: { opis },
   } = data.contentfulNekretnine
   const fluid = data.file.childImageSharp.fluid
+  console.log(kontakt)
   return (
     <Layout>
       <div className="img-wrapper img-wrapper-about">
@@ -18,6 +20,9 @@ const NekretnineTemplate = ({ data }) => {
       <div className="about-content job-content">
         <h4 className="job-paragraph">{opis}</h4>
         <h4 className="job-paragraph">Oglas vrijedi do: {vrijediDo}</h4>
+        <h4 className="job-paragraph">
+          {kontakt ? `Kontaktirajte nas na: ${kontakt}` : ""}
+        </h4>
       </div>
     </Layout>
   )
@@ -28,6 +33,7 @@ export const query = graphql`
     contentfulNekretnine(id: { eq: $id }) {
       id
       naslov
+      kontakt
       vrijediDo(formatString: "DD.MM.YYYY")
       slika {
         gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)

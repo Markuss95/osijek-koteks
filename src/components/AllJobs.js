@@ -6,6 +6,7 @@ const query = graphql`
     allContentfulPoslovi(sort: { fields: createdAt, order: DESC }) {
       nodes {
         id
+        kontakt
         prijaveDo(formatString: "DD.MM.YYYY")
         naslov
         slika {

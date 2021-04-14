@@ -6,6 +6,7 @@ const ImovinaTemplate = ({ data }) => {
   const {
     naslov,
     vrijediDo,
+    kontakt,
     opis: { opis },
   } = data.contentfulImovina
   const fluid = data.file.childImageSharp.fluid
@@ -18,6 +19,9 @@ const ImovinaTemplate = ({ data }) => {
       <div className="about-content job-content">
         <h4 className="job-paragraph">{opis}</h4>
         <h4 className="job-paragraph">Oglas vrijedi do: {vrijediDo}</h4>
+        <h4 className="job-paragraph">
+          {kontakt ? `Kontaktirajte nas na: ${kontakt}` : ""}
+        </h4>
       </div>
     </Layout>
   )
@@ -28,6 +32,7 @@ export const query = graphql`
     contentfulImovina(id: { eq: $id }) {
       id
       naslov
+      kontakt
       vrijediDo(formatString: "DD.MM.YYYY")
       slika {
         gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)

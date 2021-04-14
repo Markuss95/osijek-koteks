@@ -2,18 +2,22 @@ import React from "react"
 import RealEstatesList from "./RealEstatesList"
 import { graphql, useStaticQuery } from "gatsby"
 const query = graphql`
-{
-    allContentfulNekretnine(limit: 10, sort: { fields: createdAt, order: DESC }) {
+  {
+    allContentfulNekretnine(
+      limit: 20
+      sort: { fields: createdAt, order: DESC }
+    ) {
       nodes {
         id
         vrijediDo(formatString: "DD.MM.YYYY")
         slika {
           gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
         }
+        kontakt
         naslov
       }
     }
-}
+  }
 `
 const AllRealstates = () => {
   const data = useStaticQuery(query)

@@ -14,6 +14,7 @@ const query = graphql`
           gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
         }
         naslov
+        kontakt
       }
     }
   }

@@ -6,7 +6,7 @@ const JobsList = ({ jobs = [] }) => {
   return (
     <div className="jobs-list">
       {jobs.map(job => {
-        const { id, naslov, slika, PrijaveDo } = job
+        const { id, naslov, slika, prijaveDo } = job
         return (
           <div className="job-little-wrapper">
             {naslov === "Prazna stranica" ? (
@@ -21,7 +21,7 @@ const JobsList = ({ jobs = [] }) => {
                   className=""
                 />
                 <h5>{naslov}</h5>
-                {PrijaveDo ? <p>Oglas je otvoren do {PrijaveDo}.</p> : ""}
+                {prijaveDo ? <p>Oglas je otvoren do {prijaveDo}.</p> : ""}
               </Link>
             )}
           </div>

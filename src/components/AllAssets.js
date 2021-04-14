@@ -6,6 +6,7 @@ const query = graphql`
     allContentfulImovina(limit: 10, sort: { fields: createdAt, order: DESC }) {
       nodes {
         id
+        kontakt
         vrijediDo(formatString: "DD.MM.YYYY")
         slika {
           gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
