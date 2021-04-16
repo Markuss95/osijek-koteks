@@ -4,6 +4,8 @@ import {
   FaTruckMoving,
   FaHardHat,
   FaShoppingCart,
+  FaBuilding,
+  FaCar,
 } from "react-icons/fa"
 export default [
   {
@@ -35,7 +37,23 @@ export default [
     icon: <FaShoppingCart className="service-icon" />,
     title: "Imovina",
     link: "/usluge/imovina",
-    classStyle: "uunderline-md",
-    text: `Ovdje možete pogledati imovinu koji trenutno nudimo na prodaju. Za sve dodatne informacije molimo obratite se na uprava@osijek-koteks.hr s naznakom rednog broja predmeta za koji ste zainteresirani.`,
+    classStyle: "underline-md",
+    text: `Ovdje možete pogledati imovinu koji trenutno nudimo na prodaju. Za sve dodatne informacije molimo obratite se na uprava@osijek-koteks.hr.`,
+  },
+  {
+    id: 5,
+    icon: <FaBuilding className="service-icon" />,
+    title: "Nekretnine",
+    link: "/usluge/nekretnine",
+    classStyle: "underline-md",
+    text: `Ovdje možete pogledati nekretnine koje trenutno nudimo na prodaju. Za sve dodatne informacije molimo obratite se na uprava@osijek-koteks.hr.`,
+  },
+  {
+    id: 6,
+    icon: <FaCar className="service-icon" />,
+    title: "Pokretnine",
+    link: "/usluge/pokretnine",
+    classStyle: "underline-md",
+    text: `Ovdje možete pogledati pokretnine koje trenutno nudimo na prodaju. Za sve dodatne informacije molimo obratite se na uprava@osijek-koteks.hr.`,
   },
 ]
