@@ -20,11 +20,15 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
           <li>
             <Link to="/o-nama/posao">Posao</Link>
           </li>
+
           <li>
             <Link to="/usluge">Usluge</Link>
           </li>
           <li>
             <Link to="/certifikati">Certifikati</Link>
+          </li>
+          <li>
+            <Link to="/o-nama">O nama</Link>
           </li>
           <li>
             <Link to="/podrska">Podrška</Link>
@@ -50,10 +54,14 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
             <Link to="/kontakt/uprava">Uprava</Link>
           </li>
           <li>
-            <Link to="/kontakt/financije">Financije</Link>
+            <Link to="/kontakt/financije">
+              Sektor Računovodstva i Financija
+            </Link>
           </li>
           <li>
-            <Link to="/kontakt/pravniposlovi">Pravni Poslovi</Link>
+            <Link to="/kontakt/pravniposlovi">
+              Sektor Pravnih i Općih Poslova
+            </Link>
           </li>
           <li>
             <Link to="/kontakt/tehnicka">Tehnicka Priprema</Link>

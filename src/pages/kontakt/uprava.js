@@ -27,13 +27,8 @@ const Management = ({
         <div className="contact-content-wrapper">
           <h3 className="contact-us-header contact-us-header-uprava">UPRAVA</h3>
           <ul className="contact-us-list">
-            <li>Zoran Škorić, predsjednik Uprave</li>
             <li>
-              <address>e-mail: zoran.skoric@osijek-koteks.hr</address>
-            </li>
-            <li>Marko Tadić, član Uprave</li>
-            <li>
-              <address>e-mail: marko.tadic@osijek-koteks.hr</address>
+              <address>e-mail: uprava@osijek-koteks.hr </address>
             </li>
           </ul>
         </div>
