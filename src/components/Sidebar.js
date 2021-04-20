@@ -60,26 +60,32 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
           </li>
           <li>
             <Link to="/kontakt/pravniposlovi">
-              Sektor Pravnih i Općih Poslova
+              Sektor Pravnih, kadrovskih i Općih Poslova
             </Link>
           </li>
           <li>
-            <Link to="/kontakt/tehnicka">Tehnicka Priprema</Link>
+            <Link to="/kontakt/tehnicka">Operativno Tehnički Sektor</Link>
           </li>
           <li>
-            <Link to="/kontakt/Podugovaranje">Podugovaranje</Link>
+            <Link to="/kontakt/Podugovaranje">
+              Služba za poslove ugovaranja i upravljanja nabavom
+            </Link>
           </li>
           <li>
-            <Link to="/kontakt/nabava">Nabava</Link>
+            <Link to="/kontakt/nabava">odjel proizvodnje betona</Link>
           </li>
           <li>
-            <Link to="/kontakt/ljudskiresursi">Ljudski Resursi</Link>
+            <Link to="/kontakt/ljudskiresursi">
+              Odjel proizvodnje i ugradnje asfalta
+            </Link>
           </li>
           <li>
-            <Link to="/kontakt/prijevoz">Prijevoz</Link>
+            <Link to="/kontakt/prijevoz">
+              Odjel transporta, građevinske mehanizacije i radione
+            </Link>
           </li>
           <li>
-            <Link to="/kontakt/operativa">Građevinske Operacije</Link>
+            <Link to="/kontakt/operativa">Odjel geodetskih poslova</Link>
           </li>
         </ul>
       </div>

@@ -283,7 +283,7 @@ Navbar
     display: none;
   }
 }
-@media screen and (min-width: 1900px) and (min-height: 1000px) {
+@media screen and (min-width: 3200px) and (min-height: 1000px) {
   .toggle-btn {
     display: none;
   }
@@ -396,7 +396,7 @@ Sidebar
   color: var(--clr-red-dark);
   cursor: pointer;
 }
-@media screen and (min-width: 1900px) and (min-height: 1000px) {
+@media screen and (min-width: 3200px) and (min-height: 1000px) {
   .sidebar {
     transform: translateX(-100%);
   }
