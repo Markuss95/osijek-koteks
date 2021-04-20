@@ -1074,6 +1074,9 @@ About Page
   .iso-img {
     opacity: 0;
   }
+  .sidebar-links li a {
+    font-size: 1.2rem;
+  }
 }
 
 /*
