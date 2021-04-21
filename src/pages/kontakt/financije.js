@@ -26,12 +26,18 @@ const Finance = ({
       <div className="about-content">
         <div className="contact-content-wrapper">
           <h3 className="contact-us-header contact-us-header-financije">
-            ODJEL FINANCIJA, RAČUNOVODSTVA I KONTROLINGA
+            SEKTOR RAČUNOVODSTVA I FINANCIJA
           </h3>
           <ul className="contact-us-list">
-            <li>Karmen Desančić</li>
+            <li className="contact-list-name">Karmen Desančić</li>
             <li>
-              <address> e-mail: karmen.desancic@osijek-koteks.hr</address>
+              <address>
+                {" "}
+                e-mail:{" "}
+                <a href="mailto:  karmen.desancic@osijek-koteks.hr">
+                  karmen.desancic@osijek-koteks.hr
+                </a>
+              </address>
             </li>
           </ul>
         </div>

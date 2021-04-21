@@ -57,16 +57,20 @@ const tempLinks = data.map(link => {
             <Link to="/kontakt/podugovaranje">Podugovaranje</Link>
           </li>
           <li>
-            <Link to="/kontakt/nabava">Nabava</Link>
+            <Link to="/kontakt/beton">Odjel Proizvodnje Betona</Link>
           </li>
           <li>
-            <Link to="/kontakt/ljudskiresursi">Ljudski resursi</Link>
+            <Link to="/kontakt/asfalt">
+              Odjel Proizvodnje i Ugradnje Asfalta
+            </Link>
           </li>
           <li>
-            <Link to="/kontakt/prijevoz">Prijevoz</Link>
+            <Link to="/kontakt/transport">
+              Odjel Transporta, Građevinske Mehanizacije i Radione
+            </Link>
           </li>
           <li>
-            <Link to="/kontakt/operativa">Građevinske Operacije </Link>
+            <Link to="/kontakt/geodeti">Odjel Geodetskih Poslova </Link>
           </li>
         </ul>
       </li>

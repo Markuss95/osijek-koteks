@@ -3,7 +3,7 @@ import Layout from "../../components/Layout"
 import { graphql } from "gatsby"
 import Image from "gatsby-image"
 
-const CentralProcedures = ({
+const Concrete = ({
   data: {
     file: {
       childImageSharp: { fluid },
@@ -25,13 +25,18 @@ const CentralProcedures = ({
       </div>
       <div className="about-content">
         <div className="contact-content-wrapper">
-          <h3 className="contact-us-header contact-us-header-nabava">
-            ODJEL CENTRALNE NABAVE I UPRAVLJANJA NABAVNIM LANCEM
+          <h3 className="contact-us-header contact-us-header-operativa">
+            ODJEL PROIZVODNJE BETONA
           </h3>
           <ul className="contact-us-list">
-            <li>Mladen Tuta</li>
+            <li className="contact-list-name">Zdenko Anić</li>
             <li>
-              <address>e-mail: mladen.tuta@osijek-koteks.hr</address>
+              <address>
+                email:{" "}
+                <a href="mailto:  zdenko.anic@osijek-koteks.hr">
+                  zdenko.anic@osijek-koteks.hr
+                </a>
+              </address>
             </li>
           </ul>
         </div>
@@ -53,4 +58,4 @@ export const query = graphql`
     }
   }
 `
-export default CentralProcedures
+export default Concrete

@@ -3,7 +3,7 @@ import Layout from "../../components/Layout"
 import { graphql } from "gatsby"
 import Image from "gatsby-image"
 
-const Transport = ({
+const Geodets = ({
   data: {
     file: {
       childImageSharp: { fluid },
@@ -26,12 +26,17 @@ const Transport = ({
       <div className="about-content">
         <div className="contact-content-wrapper">
           <h3 className="contact-us-header contact-us-header-prijevoz">
-            ODJEL TRANSPORTA I GRAĐEVINSKE MEHANIZACIJE
+            ODJEL GEODETSKIH POSLOVA
           </h3>
           <ul className="contact-us-list">
-            <li>Milenko Jurčević</li>
+            <li className="contact-list-name">Tomislav Bočkinac</li>
             <li>
-              <address> e-mail: milenko.jurcevic@osijek-koteks.hr</address>
+              <address>
+                email:{" "}
+                <a href="mailto:  tomislav.bockinac@osijek-koteks.hr">
+                  tomislav.bockinac@osijek-koteks.hr
+                </a>
+              </address>
             </li>
           </ul>
         </div>
@@ -53,4 +58,4 @@ export const query = graphql`
     }
   }
 `
-export default Transport
+export default Geodets

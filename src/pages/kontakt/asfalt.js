@@ -3,7 +3,7 @@ import Layout from "../../components/Layout"
 import { graphql } from "gatsby"
 import Image from "gatsby-image"
 
-const Operations = ({
+const Asphalt = ({
   data: {
     file: {
       childImageSharp: { fluid },
@@ -25,21 +25,18 @@ const Operations = ({
       </div>
       <div className="about-content">
         <div className="contact-content-wrapper">
-          <h3 className="contact-us-header contact-us-header-operativa">
-            SEKTOR ZA GRAĐEVINSKE OPERACIJE
+          <h3 className="contact-us-header ">
+            ODJEL PROIZVODNJE I UGRADNJE ASFALTA
           </h3>
           <ul className="contact-us-list">
-            <li>Krešimir Vrselja</li>
+            <li className="contact-list-name">Dragutin Hojsak</li>
             <li>
-              <address> e-mail: kresimir.vrselja@osijek-koteks.hr</address>
-            </li>
-            <li>Mato Škorić</li>
-            <li>
-              <address>e-mail: mato.skoric@osijek-koteks.hr</address>
-            </li>
-            <li>Frano Kordić</li>
-            <li>
-              <address>e-mail: frano.kordic@osijek-koteks.hr</address>
+              <address>
+                email:{" "}
+                <a href="mailto:  dragutin.hojsak@osijek-koteks.hr">
+                  dragutin.hojsak@osijek-koteks.hr
+                </a>
+              </address>
             </li>
           </ul>
         </div>
@@ -61,4 +58,4 @@ export const query = graphql`
     }
   }
 `
-export default Operations
+export default Asphalt

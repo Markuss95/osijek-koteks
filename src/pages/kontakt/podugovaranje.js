@@ -26,12 +26,32 @@ const Subcontracting = ({
       <div className="about-content">
         <div className="contact-content-wrapper">
           <h3 className="contact-us-header contact-us-header-podugovaranje">
-            ODJEL PODUGOVARANJA I ODNOSA S KOOPERANTIMA
+            SLUŽBA ZA POSLOVE UGOVARANJA I UPRAVLJANJA NABAVOM
           </h3>
           <ul className="contact-us-list">
-            <li>Valentina Kolesarić</li>
-            <li>
-              <address> e-mail: valentina.kolesaric@osijek-koteks.hr</address>
+            <li className="podugovaranje-list-item-1">
+              <address>
+                Služba tehničke podrške i odnosa s podizvoditeljima :{" "}
+                <a href="mailto:  valentina.kolesaric@osijek-koteks.hr">
+                  valentina.kolesaric@osijek-koteks.hr
+                </a>
+              </address>
+            </li>
+            <li className="podugovaranje-list-item-1">
+              <address>
+                Služba za poslove nabave i marketinga :{" "}
+                <a href="mailto:  mladen.tuta@osijek-koteks.hr">
+                  mladen.tuta@osijek-koteks.hr
+                </a>
+              </address>
+            </li>
+            <li className="podugovaranje-list-item-1">
+              <address>
+                Služba za pravne poslove ugovaranja :{" "}
+                <a href="mailto:  vlatko.bilic@osijek-koteks.hr">
+                  vlatko.bilic@osijek-koteks.hr
+                </a>
+              </address>
             </li>
           </ul>
         </div>

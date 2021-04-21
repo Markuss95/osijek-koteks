@@ -26,12 +26,48 @@ const Tendering = ({
       <div className="about-content">
         <div className="contact-content-wrapper">
           <h3 className="contact-us-header contact-us-header-tehnicka">
-            ODJEL RAZVOJA POSLOVANJA, SUDJELOVANJA NA TENDERIMA I UGOVARANJA
+            OPERATIVNO TEHNIČKI SEKTOR
           </h3>
           <ul className="contact-us-list">
-            <li>Vlado Horvatek</li>
+            <li className="contact-list-name">
+              Operativno Tehnički Direktor: <span>Ivan Oroz</span>
+            </li>
             <li>
-              <address> e-mail: vlado.horvatek@osijek-koteks.hr</address>
+              <address>
+                {" "}
+                e-mail:{" "}
+                <a href="mailto:  ivan.oroz@osijek-koteks.hr">
+                  ivan.oroz@osijek-koteks.hr{" "}
+                </a>
+              </address>
+            </li>
+            <li>
+              <address>
+                Služba tehničke pripreme:{" "}
+                <a href="mailto:  vlado.horvatek@osijek-koteks.hr">
+                  vlado.horvatek@osijek-koteks.hr
+                </a>
+              </address>
+            </li>
+            <li>
+              <address>
+                Operativna područja:{" "}
+                <div>
+                  <a href="mailto:  mato.skoric@osijek-koteks.hr">
+                    mato.skoric@osijek-koteks.hr
+                  </a>
+                </div>
+                <div>
+                  <a href="mailto:  kresimir.vrselja@osijek-koteks.hr">
+                    kresimir.vrselja@osijek-koteks.hr
+                  </a>
+                </div>
+                <div>
+                  <a href="mailto:  frano.kordic@osijek.koteks.hrr">
+                    frano.kordic@osijek.koteks.hrr
+                  </a>
+                </div>
+              </address>
             </li>
           </ul>
         </div>

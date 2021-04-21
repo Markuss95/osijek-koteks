@@ -26,12 +26,40 @@ const LegalDepartment = ({
       <div className="about-content">
         <div className="contact-content-wrapper">
           <h3 className="contact-us-header contact-us-header-pravniposlovi">
-            ODJEL PRAVNIH I OPĆIH POSLOVA
+            SEKTOR PRAVNIH, KADROVSKIH I OPĆIH POSLOVA
           </h3>
           <ul className="contact-us-list">
-            <li>Maja Franković</li>
+            <li className="contact-list-name">Maja Franković</li>
             <li>
-              <address>e-mail: maja.frankovic@osijek-koteks.hr</address>
+              <address>
+                e-mail:{" "}
+                <a href="mailto:  maja.frankovic@osijek-koteks.hr">
+                  maja.frankovic@osijek-koteks.hr
+                </a>{" "}
+              </address>
+            </li>
+            <li>
+              <address>
+                {" "}
+                Služba za ljudske resurse:{" "}
+                <a href="mailto:  zvonimir.skoric@osijek-koteks.hr">
+                  zvonimir.skoric@osijek-koteks.hr
+                </a>
+              </address>
+            </li>
+            <li>
+              <address>
+                Služba sigurnost na radu:{" "}
+                <a href="mailto:  zvonimir.skoric@osijek-koteks.hr">
+                  darko.jukic@osijek-koteks.hr
+                </a>
+              </address>
+            </li>
+            <li>
+              <address>
+                Služba za informatičku potporu:
+                <a href="mailto: it@osijek-koteks.hr"> it@osijek-koteks.hr</a>
+              </address>
             </li>
           </ul>
         </div>

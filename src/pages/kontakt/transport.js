@@ -3,7 +3,7 @@ import Layout from "../../components/Layout"
 import { graphql } from "gatsby"
 import Image from "gatsby-image"
 
-const Subcontracting = ({
+const Transport = ({
   data: {
     file: {
       childImageSharp: { fluid },
@@ -25,13 +25,18 @@ const Subcontracting = ({
       </div>
       <div className="about-content">
         <div className="contact-content-wrapper">
-          <h3 className="contact-us-header ">
-            ODJEL LJUDSKIH RESURSA
+          <h3 className="contact-us-header contact-us-header-nabava">
+            ODJEL TRANSPORTA, GRAĐEVINSKE MEHANIZACIJE I RADIONE
           </h3>
           <ul className="contact-us-list">
-            <li>Zvonimir Škorić </li>
+            <li className="contact-list-name">Milenko Jurčević</li>
             <li>
-              <address> e-mail: zvonimir.skoric@osijek-koteks.hr</address>
+              <address>
+                email:{" "}
+                <a href="mailto:  milenko.jurcevic@osijek-koteks.hr">
+                  milenko.jurcevic@osijek-koteks.hr
+                </a>
+              </address>
             </li>
           </ul>
         </div>
@@ -53,4 +58,4 @@ export const query = graphql`
     }
   }
 `
-export default Subcontracting
+export default Transport

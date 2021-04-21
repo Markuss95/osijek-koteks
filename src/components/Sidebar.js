@@ -67,25 +67,25 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
             <Link to="/kontakt/tehnicka">Operativno Tehnički Sektor</Link>
           </li>
           <li>
-            <Link to="/kontakt/Podugovaranje">
+            <Link to="/kontakt/podugovaranje">
               Služba za poslove ugovaranja i upravljanja nabavom
             </Link>
           </li>
           <li>
-            <Link to="/kontakt/nabava">odjel proizvodnje betona</Link>
+            <Link to="/kontakt/beton">odjel proizvodnje betona</Link>
           </li>
           <li>
-            <Link to="/kontakt/ljudskiresursi">
+            <Link to="/kontakt/asfalt">
               Odjel proizvodnje i ugradnje asfalta
             </Link>
           </li>
           <li>
-            <Link to="/kontakt/prijevoz">
+            <Link to="/kontakt/transport">
               Odjel transporta, građevinske mehanizacije i radione
             </Link>
           </li>
           <li>
-            <Link to="/kontakt/operativa">Odjel geodetskih poslova</Link>
+            <Link to="/kontakt/geodeti">Odjel geodetskih poslova</Link>
           </li>
         </ul>
       </div>

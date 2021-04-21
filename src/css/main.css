@@ -1092,6 +1092,9 @@ Contact Page
 .bcg-contact {
   animation: none !important;
 }
+.contact-list-name {
+  font-size: 1.6rem;
+}
 .contact-us-header {
   position: relative;
   font-family: "Open Sans";
@@ -1103,24 +1106,29 @@ Contact Page
 }
 .contact-us-header-operativa {
   right: 2.3rem;
+  left: 0%;
 }
 .contact-us-header-nabava {
   right: 15rem;
 }
 .contact-us-header-prijevoz {
   right: 9.3rem;
+  left: 0%;
 }
 .contact-us-header-podugovaranje {
-  right: 10.4rem;
+  right: 14.4rem;
+  left: 0;
 }
 .contact-us-header-tehnicka {
-  right: 21.6rem;
+  right: 0rem;
 }
 .contact-us-header-pravniposlovi {
-  right: 1rem;
+  right: 8.5rem;
+  left: 0%;
 }
 .contact-us-header-financije {
-  right: 10rem;
+  right: 3rem;
+  left: 0%;
 }
 .contact-us-header-uprava {
   margin-top: 4rem;
@@ -1137,54 +1145,39 @@ Contact Page
   position: relative;
   margin: auto 40%;
 }
-@media screen and (max-width: 1600px) {
-  .contact-content-wrapper {
-    position: relative;
-    margin: auto 10%;
-  }
-  .contact-us-header {
-    margin-top: 4rem;
-    text-align: center;
-    white-space: normal;
-  }
-  .contact-us-header-uprava {
-    margin: 4rem 5% 2rem 5%;
-    padding: 0;
-    text-align: center;
-  }
-  .contact-us-header-operativa {
-    left: 0%;
-  }
-  .contact-us-header-financije {
-    left: 0%;
-  }
-  .contact-us-header-podugovaranje {
-    left: 0;
-  }
-  .contact-us-header-prijevoz {
-    left: 0%;
-  }
-  .contact-us-header-pravniposlovi {
-    left: 0%;
-  }
-  .contact-us-list {
-    /* margin-top: 5%; */
-    white-space: normal;
-  }
-  .contact-us-header-tehnicka {
-    margin-top: 5rem;
-    padding: 0;
-    text-align: center;
-    white-space: normal;
-    left: 0%;
-  }
-  .contact-us-header-nabava {
-    margin-top: 5rem;
-    padding: 0;
-    text-align: center;
-    white-space: normal;
-    left: 0%;
-  }
+
+.contact-content-wrapper {
+  position: relative;
+  margin: auto 10%;
+}
+.contact-us-header {
+  margin-top: 4rem;
+  text-align: center;
+  white-space: normal;
+}
+.contact-us-header-uprava {
+  margin: 4rem 5% 2rem 5%;
+  padding: 0;
+  text-align: center;
+}
+
+.contact-us-list {
+  /* margin-top: 5%; */
+  white-space: normal;
+}
+.contact-us-header-tehnicka {
+  margin-top: 5rem;
+  padding: 0;
+  text-align: center;
+  white-space: normal;
+  left: 0%;
+}
+.contact-us-header-nabava {
+  margin-top: 5rem;
+  padding: 0;
+  text-align: center;
+  white-space: normal;
+  left: 0%;
 }
 
 /*

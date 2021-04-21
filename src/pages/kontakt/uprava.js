@@ -28,7 +28,15 @@ const Management = ({
           <h3 className="contact-us-header contact-us-header-uprava">UPRAVA</h3>
           <ul className="contact-us-list">
             <li>
-              <address>e-mail: uprava@osijek-koteks.hr </address>
+              <address>
+                e-mail:
+                <a href="mailto: uprava@osijek-koteks.hr">
+                  {" "}
+                  uprava@osijek-koteks.hr{" "}
+                </a>{" "}
+                <li>Telefon: +385(0)31 22 77 00</li>
+                <li>Fax: +385(0)31 22 77 77</li>
+              </address>
             </li>
           </ul>
         </div>
