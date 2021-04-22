@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import Image from "gatsby-image"
+import SEO from "../components/SEO"
 
 const query = graphql`
   {
@@ -30,6 +31,7 @@ const Support = () => {
   const data = useStaticQuery(query)
   return (
     <Layout>
+      <SEO title="Podrška" />
       <div className="img-wrapper img-wrapper-about">
         <Image
           Tag="div"

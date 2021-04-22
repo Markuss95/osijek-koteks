@@ -3,6 +3,7 @@ import Layout from "../../components/Layout"
 import { graphql } from "gatsby"
 import Image from "gatsby-image"
 import AllRealstates from "../../components/AllRealEstates"
+import SEO from "../../components/SEO"
 
 const RealEstates = ({
   data: {
@@ -13,9 +14,12 @@ const RealEstates = ({
 }) => {
   return (
     <Layout>
+      <SEO title="Nekretnine" />
       <div className="img-wrapper img-wrapper-about">
         <Image Tag="div" fluid={fluid} className=" bcg bcg-about  " />
-        <h2 className="about-header visibility-filter ">Nekretnine na prodaju</h2>
+        <h2 className="about-header visibility-filter ">
+          Nekretnine na prodaju
+        </h2>
         <h2 className="about-header mobile-visible">Nekretnine</h2>
       </div>
       <AllRealstates />

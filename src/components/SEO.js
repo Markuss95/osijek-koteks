@@ -1,8 +1,8 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 
-
-const SEO = () => {
-  return <div>SEO Component</div>
+const SEO = ({ title, description }) => {
+  return <Helmet title={title}></Helmet>
 }
 
 export default SEO

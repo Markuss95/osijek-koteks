@@ -3,6 +3,7 @@ import Layout from "../../components/Layout"
 import { graphql } from "gatsby"
 import Image from "gatsby-image"
 import AllMovables from "../../components/AllMovables"
+import SEO from "../../components/SEO"
 
 const Movables = ({
   data: {
@@ -13,6 +14,7 @@ const Movables = ({
 }) => {
   return (
     <Layout>
+      <SEO title="Pokretnine" />
       <div className="img-wrapper img-wrapper-about">
         <Image Tag="div" fluid={fluid} className=" bcg bcg-about  " />
         <h2 className="about-header visibility-filter ">

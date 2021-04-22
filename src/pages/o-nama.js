@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import { graphql } from "gatsby"
 import Image from "gatsby-image"
+import SEO from "../components/SEO"
 
 const About = ({
   data: {
@@ -12,6 +13,7 @@ const About = ({
 }) => {
   return (
     <Layout>
+      <SEO title="O nama" />
       <div className="img-wrapper img-wrapper-about">
         <Image Tag="div" fluid={fluid} className=" bcg bcg-about  " />
         <h2 className="about-header visibility-filter ">

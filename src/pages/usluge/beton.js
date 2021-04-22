@@ -3,6 +3,7 @@ import Layout from "../../components/Layout"
 import { graphql } from "gatsby"
 import Image from "gatsby-image"
 import { ConcreteTable } from "../../components/ConcreteTable"
+import SEO from "../../components/SEO"
 
 const Concrete = ({
   data: {
@@ -13,6 +14,7 @@ const Concrete = ({
 }) => {
   return (
     <Layout>
+      <SEO title="Beton" />
       <div className="img-wrapper img-wrapper-about">
         <Image Tag="div" fluid={fluid} className=" bcg bcg-about  " />
         <h2 className="about-header visibility-filter contact-header">

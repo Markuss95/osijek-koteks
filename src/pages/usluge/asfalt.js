@@ -4,6 +4,7 @@ import { graphql } from "gatsby"
 import Image from "gatsby-image"
 import { AsphaltTableOne } from "../../components/AsphaltTableOne"
 import { AsphaltTableTwo } from "../../components/AsphaltTableTwo"
+import SEO from "../../components/SEO"
 
 const Asphalt = ({
   data: {
@@ -14,6 +15,7 @@ const Asphalt = ({
 }) => {
   return (
     <Layout>
+      <SEO title="Asfalt" />
       <div className="img-wrapper img-wrapper-about">
         <Image Tag="div" fluid={fluid} className=" bcg bcg-about  " />
         <h2 className="about-header visibility-filter contact-header">

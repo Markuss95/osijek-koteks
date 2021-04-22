@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../../components/Layout"
 import { graphql } from "gatsby"
 import Image from "gatsby-image"
+import SEO from "../../components/SEO"
 
 const Management = ({
   data: {
@@ -12,6 +13,7 @@ const Management = ({
 }) => {
   return (
     <Layout>
+      <SEO title="Kontakt" />
       <div className="img-wrapper img-wrapper-about">
         <Image
           Tag="div"

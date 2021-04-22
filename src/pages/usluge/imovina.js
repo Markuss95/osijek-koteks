@@ -3,6 +3,7 @@ import Layout from "../../components/Layout"
 import { graphql } from "gatsby"
 import Image from "gatsby-image"
 import AllAssets from "../../components/AllAssets"
+import SEO from "../../components/SEO"
 
 const Assets = ({
   data: {
@@ -13,6 +14,7 @@ const Assets = ({
 }) => {
   return (
     <Layout>
+      <SEO title="Imovina" />
       <div className="img-wrapper img-wrapper-about">
         <Image Tag="div" fluid={fluid} className=" bcg bcg-about  " />
         <h2 className="about-header visibility-filter ">Imovina na prodaju</h2>
