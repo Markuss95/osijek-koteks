@@ -34,6 +34,9 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
             <Link to="/podrska">Podrška</Link>
           </li>
           <li>
+            <Link to="/reference">Reference</Link>
+          </li>
+          <li>
             <Link to="#" onClick={toggleVisibility}>
               Kontakt
             </Link>
