@@ -34,8 +34,10 @@ const Concrete = ({
           strane ovlaštenih institucija i posjeduju sve valjane certifikate
           proizvodnje i kvalitete. Za sve upite vezane za cijenu i rokove
           isporuka molimo obratiti se odjelu Centralne nabave i upravljanja
-          nabavnim lancem na 0912831453 Ana Eržić (ana.erzic@osijek-koteks.hr)
-          ili 0912831555 Ivana Grubeša (ivana.grubesa@osijek-koteks.hr).
+          nabavnim lancem na 091/283-1453 Ana Eržić
+          (ana.erzic@osijek-koteks.hr), 091/283-1626 Ana Vinković
+          (ana.vinkovic@osijek-koteks.hr) ili 091/283-1555 Ivana Grubeša
+          (ivana.grubesa@osijek-koteks.hr).
         </h4>
       </div>
     </Layout>
