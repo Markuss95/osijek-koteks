@@ -1,2 +1,2 @@
 # Web stranica Osijek Koteksa
-https://osijek-koteks-alpha.netlify.app/
+https://www.osijek-koteks.hr/
