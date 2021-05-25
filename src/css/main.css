@@ -573,7 +573,9 @@ Services
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
-
+.service h4 {
+  letter-spacing: 0.8px;
+}
 .services-link {
   text-decoration: none;
 }
