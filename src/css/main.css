@@ -250,7 +250,7 @@ Navbar
   font-size: 2rem;
   background: transparent;
   border-color: transparent;
-  color: #0080ff;
+  color: #003f84;
   cursor: pointer;
   transition: var(--transition);
 }
