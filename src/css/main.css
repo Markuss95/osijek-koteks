@@ -632,6 +632,11 @@ Services
     column-gap: 2rem;
   }
 }
+@media screen and (max-width: 600px) {
+  .services-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
 @media screen and (min-width: 992px) {
   .services-center {
     grid-template-columns: 1fr 1fr 1fr;
