@@ -4,11 +4,11 @@ import { Link } from "gatsby"
 const Services = () => {
   return (
     <section className="section bg-grey">
-      <div className="section-center">
+      <div className="section-center services-grid">
         {services.map(service => {
           const { id, icon, title, text, classStyle, link } = service
           return (
-            <Link to={link} className="services-link">
+            <Link to={link} className="services-link" key={service.id}>
               <article key={id} className="service">
                 {icon}
                 <h4>{title}</h4>

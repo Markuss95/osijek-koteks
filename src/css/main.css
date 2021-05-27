@@ -618,6 +618,11 @@ Services
 .service:hover .underline {
   background: white;
 }
+.services-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
 @media screen and (min-width: 676px) {
   .services-center {
     display: grid;
