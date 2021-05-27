@@ -215,6 +215,7 @@ Navbar
   background: transparent;
 }
 .menu-text {
+  font-size: 1.8rem;
   position: relative;
   bottom: 0.3rem;
 }
