@@ -61,7 +61,7 @@ const Support = () => {
         </h4>
       </div>
       <Link
-        to="https://dl.dropboxusercontent.com/s/3i9xyt43ooiqdt6/Udaljena_Podrska.exe?dl=0"
+        to="https://get.teamviewer.com/6rtn9pi"
         className="teamviewer-img visibility-filter"
       >
         <Image fluid={data.otherFile.childImageSharp.fluid}></Image>
