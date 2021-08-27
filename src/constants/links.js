@@ -23,11 +23,16 @@ const data = [
   },
   {
     id: 6,
+    text: "Helpdesk",
+    url: "/helpdesk/",
+  },
+  {
+    id: 7,
     text: "Reference",
     url: "/reference/",
   },
   {
-    id: 7,
+    id: 8,
     text: "Kontakt",
     url: "/kontakt/",
   },

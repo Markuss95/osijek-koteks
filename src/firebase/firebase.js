@@ -18,5 +18,5 @@ if (!firebase.apps.length) {
 const database = firebase.database()
 
 database.ref().set({
-  name: "Marko Jozst",
+  name: "Marko Straus",
 })
