@@ -19,18 +19,9 @@ const helpdesk = ({
         <h2 className="about-header visibility-filter ">Helpdesk</h2>
         <h2 className="about-header mobile-visible">Helpdesk</h2>
       </div>
-      {/* <div className="about-content mobile-visible">
-        <h4 className="about-paragraph">
-          Shvaćajući važnost stalnog unapređivanja poslovnih procesa i kvalitete
-          svoje usluge, zaštite okoliša, zdravlja i sigurnosti na radu, tvrtka
-          Osijek-Koteks d.d. uvela je Integrirani Sustav upravljanja kvalitetom,
-          zaštitom okoliša, zdravlja i sigurnosti na radu prema normama ISO
-          9001:2015, ISO 14001:2015, BS OHSAS 18001:2007.
-        </h4>
-      </div> */}
       <div className="about-content ">
         <h4 className="about-paragraph">
-          <div className="login-window-wrapper">
+          <form className="login-window-wrapper">
             <div className="login-window">
               <div className="login-window-input">
                 <p className="input-text">Username</p>
@@ -39,9 +30,12 @@ const helpdesk = ({
               <div className="login-window-input">
                 <p className="input-text">Password</p>
                 <input type="text" className="input"></input>
+                <button type="submit" className="helpdesk-login-btn">
+                  Login
+                </button>
               </div>
             </div>
-          </div>
+          </form>
         </h4>
       </div>
     </Layout>

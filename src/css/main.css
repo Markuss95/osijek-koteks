@@ -507,6 +507,21 @@ Login Window
   margin-bottom: 0;
   text-align: center;
   color: #8c8c8c;
+  margin-bottom: 0.5rem;
+}
+.helpdesk-login-btn {
+  cursor: pointer;
+  width: 11rem;
+  height: 2rem;
+  margin-top: 2rem;
+  background-color: #003f84;
+  color: white;
+  border-radius: 1rem;
+  border: none;
+  transition: var(--transition);
+}
+.helpdesk-login-btn:hover {
+  background-color: lightblue;
 }
 
 /*
